@@ -1,2 +1,20 @@
-# .gitignore
+# Virtual environments
 env/
+venv/
+__pycache__
+
+# Binary files
+*.so
+*.dll
+*.pyc
+*.pyo
+*.pyd
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and databases
+*.log
+*.sqlite3
