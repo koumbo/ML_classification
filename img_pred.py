@@ -17,8 +17,8 @@ def preprocess_image(image):
     image = np.expand_dims(image, axis=0)  # Add batch dimension
     return image
 
-with open('/home/aniscorp/Desktop/classe_name.txt','r') as name :
-  class_names = [line.strip() for line in name]
+# with open('/home/aniscorp/Desktop/classe_name.txt','r') as name :
+class_names = ["airplane","automobile","bird","cat","deer","dog","frog","horse","ship","truck"]
 
 # CIFAR-100 labels
 # CLASSES = [...]  # Replace with actual CIFAR-100 class names
